@@ -1,6 +1,6 @@
-Atatürk düşmanları bu repo'dan uzak dursun
+# # Atatürk düşmanları bu repo'dan uzak dursun
 
-#NASIL KULLANIRIM: (VS'den import etmeyi bilmeyenler için)
+# NASIL KULLANIRIM: (VS'den import etmeyi bilmeyenler için)
  ![Screenshot 2024-03-05 at 17-32-48 ottosman_Vis_Prog Gorsel Programlama haftalık ders notları](https://github.com/ottosman/Vis_Prog/assets/90345196/cc00d691-f5ef-4722-9cca-de21381f5728)
  
 # 1-) Naparsın önce bi güzel indirirsin. 
