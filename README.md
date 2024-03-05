@@ -22,4 +22,4 @@
 
  ![3333333333333333](https://github.com/ottosman/Vis_Prog/assets/90345196/b3a2f232-ee20-48ce-a101-221cd226c1b7)
  
-# Tebrikler artık türkçe cümlelerinin arasına ingilizce kelimeler sıkıştırarak havalı bir mühendis olabilirsin.
+
