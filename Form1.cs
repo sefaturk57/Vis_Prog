@@ -13,7 +13,7 @@ namespace ders2_2
 {
     public partial class Form1 : Form
     {
-        int counter = 0; //butonun içerisindeyken her klikte 0a geri atıyordu
+        int counter = 0; 
         public Form1()
         {
             
@@ -29,7 +29,7 @@ namespace ders2_2
         private void button2_Click(object sender, EventArgs e)
         {
             Control Gbox1 = ((Button)sender).Parent;
-            temizle(Gbox1);
+            temizle_cift(Gbox1);
         }
 
         void temizle(Control Gbox1)
@@ -56,7 +56,30 @@ namespace ders2_2
 
             }
         }
+        void temizle_cift(Control Gbox1)
+        {
 
+            foreach (Control item in this.Controls)
+            {
+                if (item is GroupBox)
+                {
+                    foreach (Control item2 in item.Controls)
+                    {
+                        if ((item2 is TextBox) && (item2.Parent == Gbox1) && (item2.TabIndex % 2 == 0)) //Tab indeksi tek olanları temizle
+                        {
+
+                            (item2 as TextBox).Clear();
+
+
+                        }
+
+
+                    }
+
+                }
+
+            }
+        }
         private void button3_Click(object sender, EventArgs e)
         {
             Control Gbox3 = ((Button)sender).Parent;
