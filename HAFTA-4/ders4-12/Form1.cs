@@ -115,5 +115,17 @@ namespace ders4_12
 
 
         }
+
+        private void ch_oku_hoca_button_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            var fs = new FileStream("123.txt", FileMode.Open);
+            
+            for ( int i = 0; i < fs.Length; i++ )
+            {
+                listBox1.Items.Add((char)(fs.ReadByte()));
+            }
+            fs.Close();
+        }
     }
 }
